@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="memeStyle.css">
+</head>
+
+<body>
+  <div class="background-color">
+    <header class="everything-h1-h2">
+      <div class="everything-title">
+        <h1 class="text-info">Forging Memes from your own clicks</h1>
+        <h2>Create funny memes to send to your freinds</h2>
+</div>
+<div class="steps">
+    <p>
+
+    </p>
+</div>
+</header>
+
+    <section class="everything-steps">
+      <form id="meme-steps">
+
+
+        <div class="meme-form">
+          <label for="link-for-pics" class="directions">Image URL Here:</label>
+          <div class="directions-for-memes">
+            <input type="url" class="form-control" id="uploading-pics" placeholder="Your URL Goes Here!" required>
+          </div>
+
+        </div>
+  
+        <div class="meme-form">
+          <label for="text-on-top" class="directions">Text on top:</label>
+          <div class="directions-for-memes">
+            <input type="text" class="form-control" id="text-top" placeholder="Your Top Text Goes Here (Optional)">
+          </div>
+        </div>
+
+
+        <div class="meme-form">
+          <label for="text-on-bottom" class="directions">Text on Bottom:</label>
+          <div class="directions-for-memes">
+            <input type="text" class="form-control" id="text-bottom"
+              placeholder="Your Bottom Text Goes Here (Optional)">
+          </div>
+        </div>
+
+        <div class="meme-form">
+          <label class="directions">&nbsp;</label>
+          <div class="directions-for-submit">
+            <input type="submit" class="submit-btn" value="Meme it!">
+          </div>
+        </div>
+
+      </form>
+      <div class="line"></div>
+    </section>
+  </div>
+
+  <section class="finished-memes">
+    <ul class="exhibit"></ul>
+</section>
+
+  <footer>
+    <div class="container-footer">
+      <h2>Never stop creating memes!</h2>
+  </div>
+</footer>
+<script src="memeScript.js"></script>
+</body>
+</html>
